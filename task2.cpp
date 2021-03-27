@@ -21,6 +21,7 @@ float intergrete(int number, float a, float b, int n) {
   float h = (b - a) / n;
   float second_a = a + number * h;
   float second_b = second_a + h;
+  float result = pre_intergrete(second_a, second_b);
   return result;
 }
 
